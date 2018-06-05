@@ -10,7 +10,7 @@ import (
 
 	"github.com/go-redis/redis"
 
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 // Client is used to trace requests to a redis server.

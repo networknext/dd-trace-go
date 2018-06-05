@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/tracertest"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/tracertest"
 	"github.com/stretchr/testify/assert"
 )
 

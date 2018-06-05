@@ -1,6 +1,6 @@
 package redigo
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type dialConfig struct {
 	serviceName string

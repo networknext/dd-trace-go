@@ -1,6 +1,6 @@
 package grpc
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type interceptorConfig struct {
 	serviceName string

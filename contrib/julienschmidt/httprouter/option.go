@@ -1,6 +1,6 @@
 package httprouter
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type routerConfig struct {
 	serviceName string

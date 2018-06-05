@@ -3,7 +3,7 @@ package elastic
 import (
 	"net/http"
 
-	"github.com/DataDog/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer"
 )
 
 type clientConfig struct {

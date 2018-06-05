@@ -4,8 +4,8 @@ import (
 	"context"
 	"log"
 
-	sqltrace "github.com/DataDog/dd-trace-go/contrib/database/sql"
-	"github.com/DataDog/dd-trace-go/tracer"
+	sqltrace "github.com/networknext/dd-trace-go/contrib/database/sql"
+	"github.com/networknext/dd-trace-go/tracer"
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"
 )

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	grpctrace "github.com/DataDog/dd-trace-go/contrib/google.golang.org/grpc"
-	"github.com/DataDog/dd-trace-go/tracer"
+	grpctrace "github.com/networknext/dd-trace-go/contrib/google.golang.org/grpc"
+	"github.com/networknext/dd-trace-go/tracer"
 
 	"google.golang.org/grpc"
 )

@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	redistrace "github.com/DataDog/dd-trace-go/contrib/go-redis/redis"
-	"github.com/DataDog/dd-trace-go/tracer"
+	redistrace "github.com/networknext/dd-trace-go/contrib/go-redis/redis"
+	"github.com/networknext/dd-trace-go/tracer"
 	"github.com/go-redis/redis"
 )
 

@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 
 	"github.com/gocql/gocql"
 )

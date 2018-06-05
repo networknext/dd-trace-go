@@ -3,7 +3,7 @@ package tracer
 import (
 	"context"
 	"fmt"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 	"net/http"
 	"os"
 	"strconv"

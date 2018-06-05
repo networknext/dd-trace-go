@@ -1,9 +1,9 @@
-### :warning: WARNING! This branch is no longer maintained. Development is now on the [`v1` branch](https://github.com/DataDog/dd-trace-go/tree/v1). Please consider upgrading using our [migration guide](https://github.com/DataDog/dd-trace-go/blob/v1/MIGRATING.md).
+### :warning: WARNING! This branch is no longer maintained. Development is now on the [`v1` branch](https://github.com/networknext/dd-trace-go/tree/v1). Please consider upgrading using our [migration guide](https://github.com/networknext/dd-trace-go/blob/v1/MIGRATING.md).
 
 ---
 
 [![CircleCI](https://circleci.com/gh/DataDog/dd-trace-go/tree/master.svg?style=svg)](https://circleci.com/gh/DataDog/dd-trace-go/tree/master)
-[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/DataDog/dd-trace-go/opentracing)
+[![Godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/networknext/dd-trace-go/opentracing)
 
 Datadog APM client that implements an [OpenTracing](http://opentracing.io) Tracer.
 
@@ -14,7 +14,7 @@ To start using the Datadog Tracer with the OpenTracing API, you should first ini
 ```go
 import (
 	// ddtrace namespace is suggested
-	ddtrace "github.com/DataDog/dd-trace-go/opentracing"
+	ddtrace "github.com/networknext/dd-trace-go/opentracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 
@@ -42,7 +42,7 @@ Function `NewTracer(config)` returns an `io.Closer` instance that can be used to
 
 ## Usage
 
-See [Opentracing documentation](https://github.com/opentracing/opentracing-go) for some usage patterns. Legacy documentation is available in [GoDoc format](https://godoc.org/github.com/DataDog/dd-trace-go/tracer).
+See [Opentracing documentation](https://github.com/opentracing/opentracing-go) for some usage patterns. Legacy documentation is available in [GoDoc format](https://godoc.org/github.com/networknext/dd-trace-go/tracer).
 
 ## Contributing Quick Start
 
@@ -58,5 +58,5 @@ in the repository root. Note that you might have to increase the resources dedic
 
 ## Further Reading
 
-Automatically traced libraries and frameworks: https://godoc.org/github.com/DataDog/dd-trace-go/tracer#pkg-subdirectories
-Sample code: https://godoc.org/github.com/DataDog/dd-trace-go/tracer#pkg-examples
+Automatically traced libraries and frameworks: https://godoc.org/github.com/networknext/dd-trace-go/tracer#pkg-subdirectories
+Sample code: https://godoc.org/github.com/networknext/dd-trace-go/tracer#pkg-examples

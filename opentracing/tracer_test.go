@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	ddtrace "github.com/DataDog/dd-trace-go/tracer"
+	ddtrace "github.com/networknext/dd-trace-go/tracer"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/stretchr/testify/assert"
 )

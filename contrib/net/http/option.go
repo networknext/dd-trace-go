@@ -1,6 +1,6 @@
 package http
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type muxConfig struct {
 	serviceName string

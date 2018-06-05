@@ -1,6 +1,6 @@
 package sql
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type registerConfig struct {
 	serviceName string

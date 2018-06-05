@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	ddtrace "github.com/DataDog/dd-trace-go/tracer"
+	ddtrace "github.com/networknext/dd-trace-go/tracer"
 	ot "github.com/opentracing/opentracing-go"
 	"github.com/opentracing/opentracing-go/log"
 )

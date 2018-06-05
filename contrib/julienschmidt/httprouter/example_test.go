@@ -7,7 +7,7 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	httptrace "github.com/DataDog/dd-trace-go/contrib/julienschmidt/httprouter"
+	httptrace "github.com/networknext/dd-trace-go/contrib/julienschmidt/httprouter"
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {

@@ -5,9 +5,9 @@ import (
 	"log"
 	"testing"
 
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
-	"github.com/DataDog/dd-trace-go/tracer/tracertest"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/tracertest"
 	"github.com/gocql/gocql"
 	"github.com/stretchr/testify/assert"
 )

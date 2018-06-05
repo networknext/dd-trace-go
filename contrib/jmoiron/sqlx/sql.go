@@ -3,12 +3,12 @@
 // you will be using, then continue using the package as you normally would.
 //
 // For more information on registering and why this needs to happen, please check the
-// github.com/DataDog/dd-trace-go/contrib/database/sql package.
+// github.com/networknext/dd-trace-go/contrib/database/sql package.
 //
 package sqlx
 
 import (
-	sqltraced "github.com/DataDog/dd-trace-go/contrib/database/sql"
+	sqltraced "github.com/networknext/dd-trace-go/contrib/database/sql"
 
 	"github.com/jmoiron/sqlx"
 )

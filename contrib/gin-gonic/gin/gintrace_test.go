@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
-	"github.com/DataDog/dd-trace-go/tracer/tracertest"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/tracertest"
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/assert"
 )

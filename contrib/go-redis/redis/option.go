@@ -1,6 +1,6 @@
 package redis
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type clientConfig struct {
 	serviceName string

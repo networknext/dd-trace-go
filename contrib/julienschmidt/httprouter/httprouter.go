@@ -7,9 +7,9 @@ import (
 
 	"github.com/julienschmidt/httprouter"
 
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 
-	"github.com/DataDog/dd-trace-go/contrib/internal"
+	"github.com/networknext/dd-trace-go/contrib/internal"
 )
 
 // Router is a traced version of httprouter.Router.

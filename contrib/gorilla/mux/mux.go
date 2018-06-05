@@ -6,8 +6,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/DataDog/dd-trace-go/contrib/internal"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/contrib/internal"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 // Router registers routes to be matched and dispatches a handler.

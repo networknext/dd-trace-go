@@ -11,8 +11,8 @@ import (
 
 	redis "github.com/garyburd/redigo/redis"
 
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 // Conn is an implementation of the redis.Conn interface that supports tracing

@@ -4,9 +4,9 @@ package http
 import (
 	"net/http"
 
-	"github.com/DataDog/dd-trace-go/contrib/internal"
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/contrib/internal"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 // ServeMux is an HTTP request multiplexer that traces all the incoming requests.

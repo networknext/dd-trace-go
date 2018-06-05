@@ -5,10 +5,10 @@ import (
 	"os"
 	"testing"
 
-	sqltrace "github.com/DataDog/dd-trace-go/contrib/database/sql"
-	"github.com/DataDog/dd-trace-go/contrib/internal/sqltest"
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/tracertest"
+	sqltrace "github.com/networknext/dd-trace-go/contrib/database/sql"
+	"github.com/networknext/dd-trace-go/contrib/internal/sqltest"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/tracertest"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/lib/pq"

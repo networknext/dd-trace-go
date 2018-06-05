@@ -1,6 +1,6 @@
 package gocql
 
-import "github.com/DataDog/dd-trace-go/tracer"
+import "github.com/networknext/dd-trace-go/tracer"
 
 type queryConfig struct {
 	serviceName string

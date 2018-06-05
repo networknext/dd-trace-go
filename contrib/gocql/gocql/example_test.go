@@ -3,8 +3,8 @@ package gocql_test
 import (
 	"context"
 
-	gocqltrace "github.com/DataDog/dd-trace-go/contrib/gocql/gocql"
-	"github.com/DataDog/dd-trace-go/tracer"
+	gocqltrace "github.com/networknext/dd-trace-go/contrib/gocql/gocql"
+	"github.com/networknext/dd-trace-go/tracer"
 	"github.com/gocql/gocql"
 )
 

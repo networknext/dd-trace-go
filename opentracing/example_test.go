@@ -2,7 +2,7 @@ package opentracing_test
 
 import (
 	// ddtrace namespace is suggested
-	ddtrace "github.com/DataDog/dd-trace-go/opentracing"
+	ddtrace "github.com/networknext/dd-trace-go/opentracing"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

@@ -6,9 +6,9 @@ import (
 	"database/sql/driver"
 	"fmt"
 
-	"github.com/DataDog/dd-trace-go/contrib/database/sql/internal"
-	"github.com/DataDog/dd-trace-go/tracer"
-	"github.com/DataDog/dd-trace-go/tracer/ext"
+	"github.com/networknext/dd-trace-go/contrib/database/sql/internal"
+	"github.com/networknext/dd-trace-go/tracer"
+	"github.com/networknext/dd-trace-go/tracer/ext"
 )
 
 var _ driver.Driver = (*tracedDriver)(nil)

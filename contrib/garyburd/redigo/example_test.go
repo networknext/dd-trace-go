@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	redigotrace "github.com/DataDog/dd-trace-go/contrib/garyburd/redigo"
-	"github.com/DataDog/dd-trace-go/tracer"
+	redigotrace "github.com/networknext/dd-trace-go/contrib/garyburd/redigo"
+	"github.com/networknext/dd-trace-go/tracer"
 
 	"github.com/garyburd/redigo/redis"
 )
